@@ -1,12 +1,12 @@
-a = 'максим'
-def lang(a):
+k = 'strochechka'
+def lang(k):
     i = 0
-    for char in a:
-        if char == 'а':
-            a = a[:i] + '4' + a[i + 1:]
-        elif char == 'е':
-            a = a[:i] + '3' + a[i + 1:]
+    for char in k:
+        if char == 'k':
+            k = k[:i] + '4' + k[i + 1:]
+        elif char == 'o':
+            k = k[:i] + '3' + k[i + 1:]
         i += 1
-    print(a)
-    return a
-lang(a)
+    print(k)
+    return k
+lang(k)
