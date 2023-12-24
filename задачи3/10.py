@@ -1,9 +1,6 @@
-def coins(a):
-    total = sum(a)
-    if total % 3 == 0:
-        return True
-    else:
-        return False
-a = [3, 3, 4, 4, 5, 5]
-result = coins(a)
-print(result)  
+a=['bill', 'bill', 'bill', 'bill', 'bill', 'bill']
+f==len(a)/3
+if f==int(f):
+    print('bingo')
+else:
+    print('hell no')
