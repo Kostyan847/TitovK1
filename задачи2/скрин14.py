@@ -1,6 +1,6 @@
-r=int (input('введите r '))
-h=int (input('введите h '))
-p=int (input('введите p '))
+r=int (input('пиши r '))
+h=int (input('пиши h '))
+p=int (input('пиши p '))
 
 s=3.14*(r^2)
 o=h*s
