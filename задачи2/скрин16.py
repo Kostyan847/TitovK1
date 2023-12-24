@@ -1,23 +1,16 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Nov 18 11:52:50 2023
-
-@author: Pupil
-"""
-
-a=[1, 3, 4]
-b=[2, 4, 6]
-d=[8, 9, 1]
-f=1
-g=1
-u=1
-def Vika(a,b,d,f,g,u):
+a=[9, 3, 4]
+b=[2, 7, 6]
+c=[8, 10, 2]
+l=1
+m=1
+n=1
+def box(a,b,c,l,m,n):
     for i in a:
-        f=f*i
+        l=l*i
     for i in b:
-        u=u*i
-    for i in d:
-        g=g*i
-    v=f+u+g
+        m=m*i
+    for i in c:
+        n=n*i
+    v=l+m+n
     print(v)
-Vika(a,b,d,f,g,u)
+box(a,b,c,l,m,n)
