@@ -1,4 +1,6 @@
-def to_list(*args):
-    return list(args)
-print(to_list(1,2,3,4))
-
+def mul_to_int(a, b):
+    x = a * b
+    if float(x).is_integer():
+        return int(x)
+    return x
+print(mul_to_int(1.5,2))
