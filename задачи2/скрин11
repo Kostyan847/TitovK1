@@ -9,6 +9,6 @@ n=['Роман','Демьян','Лука','Пахом','Яким']
 def guest(n):
     for i in range(len(n)):
         c=n[i]
-        s='Привет,'+str(c )
-        print(s)
-Vika(n)
+        l='Добро пожаловать,'+str(c )
+        print(l)
+guest(n)
