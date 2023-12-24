@@ -4,5 +4,5 @@ def shourtner(st):
         right = st.rfind(')', left)
         st = st.replace(st[left:right + 1], '')
         return st
-print(shourtner('Биырвпыпвапып бабах'))
+print(shourtner('Биырвпып(вапы) бабах'))
 
